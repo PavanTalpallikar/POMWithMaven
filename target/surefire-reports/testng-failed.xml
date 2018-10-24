@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.oracle.rsys.ExtentReports.ExtentReportListenerNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="LoginToQA1Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.oracle.rsys.TestCases.LoginToQA1Test">
+        <methods>
+          <include name="fnLoginTest2" invocation-numbers="0"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.oracle.rsys.TestCases.LoginToQA1Test -->
+    </classes>
+  </test> <!-- LoginToQA1Test(failed) -->
+  <test thread-count="5" verbose="0" name="CreateAProgramAndPublishTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.oracle.rsys.TestCases.CreateAProgramAndPublishTest">
+        <methods>
+          <include name="fnSampleProgramPublishTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.oracle.rsys.TestCases.CreateAProgramAndPublishTest -->
+    </classes>
+  </test> <!-- CreateAProgramAndPublishTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+com\oracle\rsys\TestCases\SaveAsAndPublishProgramTest.class
+com\oracle\rsys\BaseTest\BaseTestClass.class
+com\oracle\rsys\TestCases\UnpublishProgramTest.class
+com\oracle\rsys\TestCases\LoginTest.class
+com\oracle\rsys\TestCases\LoginToQA1Test.class
+com\oracle\rsys\TestCases\SimpleChromeDriverLaunchcheck.class
+com\oracle\rsys\TestCases\RepublishProgramTest.class
+com\oracle\rsys\TestCases\CreateAProgramAndPublishTest.class

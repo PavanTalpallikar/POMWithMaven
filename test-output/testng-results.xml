@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47543" started-at="2018-10-12T02:15:01Z" finished-at="2018-10-12T02:15:49Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="21075" started-at="2018-10-12T02:15:01Z" finished-at="2018-10-12T02:15:22Z">
+      <class name="com.oracle.rsys.TestCases.LoginToQA1Test">
+        <test-method status="PASS" signature="fnLoginTest2(java.util.Hashtable)[pri:0, instance:com.oracle.rsys.TestCases.LoginToQA1Test@dbf57b3]" name="fnLoginTest2" duration-ms="21008" started-at="2018-10-12T02:15:01Z" data-provider="getData" finished-at="2018-10-12T02:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=SysAdmin, RunMode=Y, Password=Welcome1234!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnLoginTest2 -->
+        <test-method status="SKIP" signature="fnLoginTest2(java.util.Hashtable)[pri:0, instance:com.oracle.rsys.TestCases.LoginToQA1Test@dbf57b3]" name="fnLoginTest2" duration-ms="1" started-at="2018-10-12T02:15:22Z" data-provider="getData" finished-at="2018-10-12T02:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=SysAdmin, RunMode=N, Password=Welcome1234%}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping LoginToQA1Test data run mode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping LoginToQA1Test data run mode is N
+at com.oracle.rsys.TestCases.LoginToQA1Test.fnLoginTest2(LoginToQA1Test.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnLoginTest2 -->
+      </class> <!-- com.oracle.rsys.TestCases.LoginToQA1Test -->
+    </test> <!-- Login Test -->
+    <test name="Create Program Test" duration-ms="26433" started-at="2018-10-12T02:15:22Z" finished-at="2018-10-12T02:15:49Z">
+      <class name="com.oracle.rsys.TestCases.CreateAProgramAndPublishTest">
+        <test-method status="PASS" signature="fnSampleProgramPublishTest()[pri:0, instance:com.oracle.rsys.TestCases.CreateAProgramAndPublishTest@12468a38]" name="fnSampleProgramPublishTest" duration-ms="25366" started-at="2018-10-12T02:15:22Z" finished-at="2018-10-12T02:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnSampleProgramPublishTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.oracle.rsys.TestCases.CreateAProgramAndPublishTest@12468a38]" name="quit" is-config="true" duration-ms="1062" started-at="2018-10-12T02:15:48Z" finished-at="2018-10-12T02:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.oracle.rsys.TestCases.CreateAProgramAndPublishTest -->
+    </test> <!-- Create Program Test -->
+  </suite> <!-- Suite -->
+</testng-results>

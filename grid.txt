@@ -1,0 +1,16 @@
+Hub->
+java -Dwebdriver.chrome.driver=D:\chromedriver.exe -jar D:/selenium-server-standalone-3.14.0.jar -role hub -hubConfig hub.json
+
+Node 1->
+java -Dwebdriver.chrome.driver=D:\chromedriver.exe -jar D:/selenium-server-standalone-3.14.0.jar -role node -nodeConfig node1.json
+
+Node 2->
+java -Dwebdriver.chrome.driver=D:\chromedriver.exe -jar D:/selenium-server-standalone-3.14.0.jar -role node -nodeConfig node2.json
+
+
+
+
+
+In this, folder names should not have spaces. If there are spaces, command will not be able to access. Example: If chrome or stand alone server jar is in "Selenium Intallables", it cant recognize. If its in "SeleniumIntallables", it will be able to recognize. 
+In selenium standalone server > 3.x.x, there are slight changes in node and hub config files which are currently incorpotated in my project -  POMWithMaven
+

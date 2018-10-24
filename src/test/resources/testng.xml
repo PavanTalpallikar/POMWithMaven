@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+
+	<listeners>
+		<listener class-name="com.oracle.rsys.ExtentReports.ExtentReportListenerNG" />
+	</listeners>
+
+	<test thread-count="5" name="LoginToQA1Test"
+		allow-return-values="true">
+		<classes>
+			<class name="com.oracle.rsys.TestCases.LoginToQA1Test" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="CreateAProgramAndPublishTest"
+		allow-return-values="true">
+		<classes>
+			<class
+				name="com.oracle.rsys.TestCases.CreateAProgramAndPublishTest" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

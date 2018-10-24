@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 2.178 s <<< FAILURE! - in TestSuite
+fnLoginTest2(com.oracle.rsys.TestCases.LoginToQA1Test)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.oracle.rsys.TestCases.LoginToQA1Test.fnLoginTest2(LoginToQA1Test.java:59)
+
+fnSampleProgramPublishTest(com.oracle.rsys.TestCases.CreateAProgramAndPublishTest)  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.oracle.rsys.TestCases.CreateAProgramAndPublishTest.fnSampleProgramPublishTest(CreateAProgramAndPublishTest.java:60)
+
+quit(com.oracle.rsys.TestCases.LoginToQA1Test)  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.oracle.rsys.TestCases.LoginToQA1Test.quit(LoginToQA1Test.java:77)
+
+quit(com.oracle.rsys.TestCases.CreateAProgramAndPublishTest)  Time elapsed: 0.632 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.oracle.rsys.TestCases.CreateAProgramAndPublishTest.quit(CreateAProgramAndPublishTest.java:112)
+

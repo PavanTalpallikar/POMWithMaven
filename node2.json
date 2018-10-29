@@ -24,7 +24,7 @@
   "port": 5599,
   "register": true,
   "registerCycle": 5000,
-  "hub": "http://localhost:4444",
+  "hub": "ondemand.saucelabs.com:80",
   "nodeStatusCheckTimeout": 5000,
   "nodePolling": 5000,
   "role": "node",

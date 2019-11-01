@@ -4,7 +4,7 @@
     {
       "browserName": "firefox",
       "marionette": true,
-      "maxInstances": 2,
+      "maxInstances": 3,
       "seleniumProtocol": "WebDriver"
     },
     {
